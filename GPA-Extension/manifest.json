@@ -1,0 +1,11 @@
+{
+    "name": "GPA",
+    "version": "1.0",
+    "manifest_version": 2,
+    "content_scripts": [
+        {
+            "matches": ["https://fap.fpt.edu.vn/Grade/StudentTranscript.aspx"],
+            "js": ["script.js"]
+        }
+    ]
+}
